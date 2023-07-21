@@ -2,7 +2,7 @@ import * as React from "react";
 import { Formik } from "formik";
 
 const LoginForm = () => (
-  <div className="col-sm-4 col-sm-offset-4 m-auto mt-5">
+  <div className="col-sm-4 offset-sm-4 m-auto mt-5">
     <legend>Login</legend>
     <Formik
       initialValues={{ email: "", password: "" }}
