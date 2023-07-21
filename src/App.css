@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.help-block {
+  color: #a94442 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+legend {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.UserSurveysPage {
+  margin-top: 20px;
+}
+
+.SurveyList ul {
+  margin: 10px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.SurveyItem {
+  border: 1px solid silver;
+  line-height: 1.5em;
+  margin: 15px 0;
+  text-align: center;
+  background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SurveyItem a {
+  display: block;
+  padding: 10px;
+}
+
+.SurveyPage {
+  margin-top: 30px;
+}
+
+.SurveyPage .survey {
+  background-color: #fff;
+}
+
+.SurveyPage .submit {
+  padding: 10px 30px;
+}
+
+.question-title {
+  font-size: 20px;
+  font-weight: 700;
 }
